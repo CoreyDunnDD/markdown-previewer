@@ -6,6 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { marked } from 'marked';
 
+marked.setOptions({
+  breaks: true,
+});
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.2/marked.min.js" integrity="sha512-YCrDB5/fPsWLy0vZ1sPc6m2n9vTrSfaxH4mdyQaZVa07MRJqai+5YeOzmflXBFdj5a1Rfvpn+g4XOq3f8yCThA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 const defaultText =  `# Hello, this is my Markdown Previewer!\n` +
